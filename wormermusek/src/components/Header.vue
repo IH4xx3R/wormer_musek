@@ -4,30 +4,34 @@
     <div class="h-16 px-6 md:px-12 lg:px-24 bg-white flex items-center justify-between flex-wrap shadow-md">
            <a  href="/" class="text-blue-800 font-light text text-2xl tracking-wide">WORMER MUSEK</a>
             <div class="md:block hidden">
-                <router-link  to="/" class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Home</router-link> 
+                <router-link v-on:click.native="isDropdownOpen=false" to="/" class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Home</router-link> 
 
                 
-                <router-link to="/musek" class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Musek</router-link>
+                <span @click="isDropdownOpen = !isDropdownOpen" class="border-0 cursor-pointer pl-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 ml-2" >Musek
+                    
+                    
+                    <div v-if="isDropdownOpen" class="absolute  pin-t pin-l mt-6 ml-24 w-48 py-4 bg-white z-20 shadow-xl rounded">
 
-                    <!--<div class="absolute  pin-t pin-l mt-6 ml-8  w-48 py-4 bg-green-400 z-20">
-
-                        <div class="hover:bg-blue-800 mb-2 bg-gray-300">
-                                <span class="block p-2 lg:mt-0 text-blue-900 hover:text-blue-100" href="#">Orchester</span>
+                        <div class="hover:bg-blue-800 mb-2">
+                                <a v-on:click.native="isDropdownOpen=false" href="#/orchester" class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100" >Orchester</a>
                         </div>
 
-                        <div class="hover:bg-blue-800 mb-2 bg-gray-300">
-                                <span class="block p-2 lg:mt-0 text-blue-900 hover:text-blue-100" href="#">Dirigenten</span>
+                        <div class="hover:bg-blue-800 mb-2">
+                                <a v-on:click.native="isDropdownOpen=false" href="#/dirigenten" class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100" >Dirigenten</a>
                         </div>
 
-                        <div class="hover:bg-blue-800 mb-2 bg-gray-300">
-                                <span class="block p-2 lg:mt-0 text-blue-900 hover:text-blue-100" href="#">Verwaltung</span>
+                        <div class="hover:bg-blue-800 ">
+                               <a v-on:click.native="isDropdownOpen=false" href="#/verwaltung" class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100" >Verwaltung</a>
                         </div>
-                    </div>-->
+                    </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block w-5 h-5 -mt-3 fill-current text-gray-700 pr-2" viewBox="0 0 320 512" ><path fill="currentColor"  d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"/></svg>
                 
+                </span>        
 
-                <router-link  to="/agenda" class="border-0 px-4 py-2  border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Agenda</router-link> 
-                <router-link  to="/sponsoren" class="border-0 px-4 py-2  border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2">Sponsoren</router-link> 
-                <router-link to="/kontakt" class="border-0 px-4 py-2   border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Kontakt</router-link> 
+                <router-link v-on:click.native="isDropdownOpen=false" to="/agenda" class="border-0 px-4 py-2  border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Agenda</router-link> 
+                <router-link v-on:click.native="isDropdownOpen=false" to="/sponsoren" class="border-0 px-4 py-2  border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2">Sponsoren</router-link> 
+                <router-link v-on:click.native="isDropdownOpen=false" to="/kontakt" class="border-0 px-4 py-2   border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Kontakt</router-link> 
                 <a href="https://harmonie-wormeldange.lu/WM/memberen/login.php" class="border-0 px-4 py-2   border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800  mx-2" >Intranet</a> 
             </div>
 
@@ -82,11 +86,10 @@
 export default {
     data(){
         return {
-            toggleMenu : false
+            toggleMenu : false,
+            isDropdownOpen : false
         }
-    },
-
-
+    }
 }
 </script>
 

@@ -12,8 +12,8 @@
     <div class="md:flex px-4 md:px-12 lg:px-24 pt-2 pb-12 flex-1 flex-wrap"> 
 
           <!-- PLAKAT -->
-          <div class="md:w-1/3 lg:w-1/2  md:pr-4">
-            <img class="h-auto mb-12 md:mb-0" src="https://harmonie-wormeldange.lu/WM/images/kreschtmaart2019.png" alt="">
+          <div class="md:w-1/3 lg:w-1/2  md:pr-4 ">
+            <img class="h-auto mb-12 md:mb-0 mx-auto" src="https://harmonie-wormeldange.lu/WM/images/kreschtmaart2019.png" alt="">
           </div>
 
           <!-- AGENDA 4x-->
