@@ -3,7 +3,7 @@
     <!-- INTRO -->
     <div
       class="h-64 relative text-center bg-no-repeat bg-cover bg-center shadow-md mb-12"
-      style="background-image: url('https://harmonie-wormeldange.lu/WM/gallery/albums/gala_2019/previews/021-IMG_5743.jpg.medium.jpeg')"
+       :style="{backgroundImage: `url(${require(`../assets/img/IMG_5743.jpg`)})`}"
     >
       <div class="absolute bg-blue-800 opacity-75 h-64 w-full"></div>
       <h1
@@ -85,6 +85,7 @@
 
 <script>
 import AgendaSlot from "../components/agenda/AgendaSlot";
+
 export default {
   components: {
     AgendaSlot

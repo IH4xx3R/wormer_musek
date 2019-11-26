@@ -99,7 +99,9 @@
           <div>1935</div>
         </div>
 
-        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1935_small.jpeg" alt=""></div>
+        <div class="-my-16 shadow-2xl">
+        
+          <img style="width: 100%;height: auto;" src="https://harmonie-wormeldange.lu/WM/images/musek_1935_small.jpeg" alt=""></div>
 
 
         <div
@@ -172,7 +174,7 @@
           <div>1964</div>
         </div>
 
-        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1964_small.jpeg" alt=""></div>
+        <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;"  src="https://harmonie-wormeldange.lu/WM/images/musek_1964_small.jpeg" alt=""></div>
 
 
         <div class="w-full text-center mx-auto mb-16 my-20">60-järegt Stëftungsfest zu Wormer.</div>
@@ -204,7 +206,7 @@
           <div>1968</div>
         </div>
 
-                <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/fanfare_cunibert_small.jpeg" alt=""></div>
+                <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;"  src="https://harmonie-wormeldange.lu/WM/images/fanfare_cunibert_small.jpeg" alt=""></div>
 
 
         <div
@@ -240,7 +242,7 @@
           <div>1979</div>
         </div>
 
-                        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1979_small.jpeg" alt=""></div>
+                        <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;"  src="https://harmonie-wormeldange.lu/WM/images/musek_1979_small.jpeg" alt=""></div>
 
 
         <div
