@@ -33,12 +33,22 @@ const routes = [
   {
     path: '/sponsoren',
     name: 'sponsoren',
-    component: () => import(/* webpackChunkName: "kontakt" */ '../views/Sponsoren.vue')
+    component: () => import(/* webpackChunkName: "sponsoren" */ '../views/Sponsoren.vue')
   },
   {
     path: '/orchester',
     name: 'orchester',
-    component: () => import(/* webpackChunkName: "kontakt" */ '../views/Orchester.vue')
+    component: () => import(/* webpackChunkName: "orchester" */ '../views/Orchester.vue')
+  },
+  {
+    path: '/dirigenten',
+    name: 'dirigenten',
+    component: () => import(/* webpackChunkName: "dirigenten" */ '../views/Dirigenten.vue')
+  },
+  {
+    path: '/verwaltung',
+    name: 'verwaltung',
+    component: () => import(/* webpackChunkName: "verwaltung" */ '../views/Verwaltung.vue')
   }
 ]
 
