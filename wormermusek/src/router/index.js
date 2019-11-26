@@ -18,12 +18,17 @@ const routes = [
   {
     path: '/datenschutz',
     name: 'datenschutz',
-    component: () => import(/* webpackChunkName: "agenda" */ '../views/Datenschutz.vue')
+    component: () => import(/* webpackChunkName: "datenschutz" */ '../views/Datenschutz.vue')
   },
   {
     path: '/impressum',
     name: 'impressum',
-    component: () => import(/* webpackChunkName: "agenda" */ '../views/Impressum.vue')
+    component: () => import(/* webpackChunkName: "impressum" */ '../views/Impressum.vue')
+  },
+  {
+    path: '/kontakt',
+    name: 'kontakt',
+    component: () => import(/* webpackChunkName: "kontakt" */ '../views/Kontakt.vue')
   }
 ]
 
