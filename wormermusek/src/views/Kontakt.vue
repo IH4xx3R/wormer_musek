@@ -10,7 +10,7 @@
                     <p>94, rue Principale</p>
                     <p>L-5480 Wormeldange</p><br>
                     <p class="font-bold">E-Mail:</p>
-                    <p><a href="mailto:harmoniewormeldange@gmail.com">harmoniewormeldange@gmail.com</a></p>
+                    <p><a class="text-blue-500" href="mailto:harmoniewormeldange@gmail.com">harmoniewormeldange@gmail.com</a></p>
                 </div>
 
                 <div class="md:w-1/2">
@@ -22,8 +22,8 @@
                     <p>LU13 0019 9400 6243 8000 - BCEELULL</p>
                     <br>
                     <p class="font-bold">Webmaster</p>
-                    <p>Steve Klicek : <a href="mailto:sk@stevek.org">sk@stevek.org</a></p>
-                    <p>Kontakt a Berodung: <a href="https://stevek.org/">Kontakt</a> </p>
+                    <p>Steve Klicek : <a class="text-blue-500" href="mailto:sk@stevek.org">sk@stevek.org</a></p>
+                    <p>Kontakt a Berodung: <a class="text-blue-500" href="https://stevek.org/">Kontakt</a> </p>
                     <br>
                     <p class="font-bold">Du kanns en Instrument spillen a wells Musek machen?</p>
                     <p>Mir prouwen all Freideg vun 19.30 bis 21.30 zu Wormer an eisem Prouwesall am bloen Haus vis-à-vis vun der Gemeen (94, rue Principale)</p>

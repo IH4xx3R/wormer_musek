@@ -32,7 +32,7 @@
           <div class="absolute h-64 block w-full md:px-12 lg:px-24 px-6 pt-20 pb-24 text-md md:text-xl text-white md:tracking-wider">
            <p>D'Harmonie Wormeldange a.s.b.l. ass 1904 gegrënnt ginn.<br>
             Zur Zäit hu mir 35 aktiv Musikantinnen a Musikanten.<br>
-            Mir prouwen all Freideg vun 19.30 bis 21.30 zu Wormer an eisem Prouwesall am bloen Haus vis-à-vis vun der Gemeen</p>
+            Mir prouwen all Freideg vun 19.30 bis 21.30 zu Wormer an eisem Prouwesall am bloen Haus vis-à-vis vun der Gemeen.</p>
           </div>
     </div>
 
