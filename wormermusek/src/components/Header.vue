@@ -9,12 +9,12 @@
         <router-link
           v-on:click.native="isDropdownOpen=false"
           to="/"
-          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 mx-2"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Home</router-link>
 
         <span
           @click="isDropdownOpen = !isDropdownOpen"
-          class="border-0 cursor-pointer pl-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 ml-2"
+          class="border-0 cursor-pointer pl-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >
           Musek
           <div
@@ -44,6 +44,15 @@
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Verwaltung</a>
             </div>
+
+
+            <div class="hover:bg-blue-800">
+              <a
+                v-on:click.native="isDropdownOpen=false"
+                href="#/downloads"
+                class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
+              >WM Live</a>
+            </div>
           </div>
 
           <svg
@@ -61,21 +70,21 @@
         <router-link
           v-on:click.native="isDropdownOpen=false"
           to="/agenda"
-          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 mx-2"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Agenda</router-link>
         <router-link
           v-on:click.native="isDropdownOpen=false"
           to="/sponsoren"
-          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 mx-2"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Sponsoren</router-link>
         <router-link
           v-on:click.native="isDropdownOpen=false"
           to="/kontakt"
-          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 mx-2"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Kontakt</router-link>
         <a
           href="https://harmonie-wormeldange.lu/WM/memberen/login.php"
-          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 mx-2"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Intranet</a>
       </div>
 
@@ -113,6 +122,10 @@
 
       <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
         <router-link to="/verwaltung" class="block p-2 lg:mt-0 text-blue-900">Verwaltung</router-link>
+      </div>
+
+      <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
+        <router-link to="/downloads" class="block p-2 lg:mt-0 text-blue-900">WM Live</router-link>
       </div>
 
       <div @click="toggleMenu = false" class="hover:bg-blue-300 mb-2">

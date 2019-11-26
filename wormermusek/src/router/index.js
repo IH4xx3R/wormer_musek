@@ -49,6 +49,11 @@ const routes = [
     path: '/verwaltung',
     name: 'verwaltung',
     component: () => import(/* webpackChunkName: "verwaltung" */ '../views/Verwaltung.vue')
+  },
+  {
+    path: '/downloads',
+    name: 'downloads',
+    component: () => import(/* webpackChunkName: "verwaltung" */ '../views/Downloads.vue')
   }
 ]
 
