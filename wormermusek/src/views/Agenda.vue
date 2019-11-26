@@ -1,10 +1,13 @@
 <template>
   <div class="about">
     <div
-      class="mx-auto h-24 w-full pt-8 mb-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
+      class="mx-auto h-24 w-full pt-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
     >Agenda</div>
 
-    <div v-for="n in 10" :key="n" class="md:flex flex-warp md:px-12 lg:px-24 px-6">
+         <div class="md:p-16 p-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">      
+
+    <div v-for="n in 10" :key="n" class="md:flex flex-warp">
       <agenda-slot
         class="md:w-1/2"
         title="Concert"
@@ -23,6 +26,7 @@
       ></agenda-slot>
     </div>
   </div>
+         </div></div>
 </template>
 
 

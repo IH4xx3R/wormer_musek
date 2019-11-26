@@ -4,7 +4,10 @@
       class="mx-auto h-24 w-full pt-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
     >Verwaltung</div>
 
-    <div class="pt-12 bg-gray-200 px-12 ">
+    <!--<div class="pt-12 bg-gray-200 px-12 ">-->
+
+     <div class="md:p-16 p-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white antialiased shadow-xl text-gray-800">       
 
         <div class="md:flex items-center">
             <div class="md:w-1/3 md:m-8 m-4 leading-tight pb-8 md:pb-0">
@@ -74,7 +77,7 @@
                 <p class="text-lg text-gray-600 ">Member</p>
             </div>
 
-             <div class="md:w-1/3 md:m-8 p-4 leading-tight pb-8 md:pb-0">
+             <div class="md:w-1/3 md:m-8 p-4 leading-tight  md:pb-0">
                 <div class=""><img style="width: 100%;height: auto;" src="" alt=""></div>
                 <p class="lg:text-4xl text-2xl text-gray-800"></p>
                 <p class="text-lg text-gray-600 "></p>
@@ -84,5 +87,5 @@
        
       
     </div>
-  </div>
+  </div></div>
 </template>

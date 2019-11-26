@@ -4,7 +4,10 @@
       class="mx-auto h-24 w-full pt-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
     >Kontakt</div>
 
-    <div class="md:flex p-16 bg-gray-100 h-screen">
+             <div class="md:p-16 p-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white antialiased text-gray-800 shadow-xl">     
+
+    <div class="md:flex h-screen">
       <div class="md:w-1/2 mb-12">
         <p class="font-bold">HARMONIE - WORMELDANGE asbl</p>
         <p>94, rue Principale</p>
@@ -41,5 +44,6 @@
         <p>Mir prouwen all Freideg vun 19.30 bis 21.30 zu Wormer an eisem Prouwesall am bloen Haus vis-à-vis vun der Gemeen (94, rue Principale)</p>
       </div>
     </div>
+  </div>    </div>
   </div>
 </template>

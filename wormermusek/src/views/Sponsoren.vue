@@ -4,7 +4,9 @@
       class="mx-auto h-24 w-full pt-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
     >Sponsoren</div>
 
-    <div class="pt-4 bg-white px-24">
+         <div class="md:p-16 p-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800"> 
+
       <div class="mx-auto text-center">
         <span class="text-6xl">Merci</span>
         <br />
@@ -42,5 +44,6 @@
         </div>
       </div>
     </div>
+  </div>    
   </div>
 </template>

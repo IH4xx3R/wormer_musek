@@ -2,7 +2,7 @@
   <div>
     <!-- INTRO -->
     <div
-      class="h-64 relative text-center bg-no-repeat bg-cover bg-center shadow-md mb-12"
+      class="h-64 relative text-center bg-no-repeat bg-cover bg-center shadow-md "
        :style="{backgroundImage: `url(${require(`../assets/img/IMG_5743.jpg`)})`}"
     >
       <div class="absolute bg-blue-800 opacity-75 h-64 w-full"></div>
@@ -16,10 +16,13 @@
       </h1>
     </div>
 
+        <div class="md:pl-16 md:pb-16 md:pr-16 pl-4 pb-4 pr-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">   
+
     <!-- PLAKAT + AGENDA -->
-    <div class="md:flex px-4 md:px-12 lg:px-24 pt-2 pb-12 flex-1 flex-wrap">
+    <div class="md:flex flex-1 flex-wrap">
       <!-- PLAKAT -->
-      <div class="md:w-1/3 lg:w-1/2 md:pr-4">
+      <div class="md:w-1/3 lg:w-1/2 md:pr-6">
         <img
           class="h-auto mb-12 md:mb-0 mx-auto"
           src="https://harmonie-wormeldange.lu/WM/images/kreschtmaart2019.png"
@@ -28,7 +31,7 @@
       </div>
 
       <!-- AGENDA 4x-->
-      <div class="md:w-2/3 lg:w-1/2">
+      <div class="md:w-2/3 lg:w-1/2 md:pl-6">
         <agenda-slot
           class
           title="Concert"
@@ -62,6 +65,7 @@
           desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
         ></agenda-slot>
       </div>
+    </div>      </div>
     </div>
 
     <!-- MUSEK INFO -->

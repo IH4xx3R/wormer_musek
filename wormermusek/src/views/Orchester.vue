@@ -15,8 +15,11 @@
       </h1>
     </div>
 
+             <div class="md:p-16 p-4 bg-gray-200 ">
+      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800"> 
+
     <div
-      class="p-16 md:pl-24 md:pr-24 pl-12 pr-12 bg-gray-100 md:flex flex-wrap justify-between"
+      class="md:flex flex-wrap justify-between"
     >
       <div class="md:w-1/2 md:p-6">
         <div
@@ -242,7 +245,7 @@
           <div>1979</div>
         </div>
 
-                        <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;"  src="https://harmonie-wormeldange.lu/WM/images/musek_1979_small.jpeg" alt=""></div>
+        <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;"  src="https://harmonie-wormeldange.lu/WM/images/musek_1979_small.jpeg" alt=""></div>
 
 
         <div
@@ -470,5 +473,6 @@
         </div>
       </div>
     </div>
+  </div>    </div>
   </div>
 </template>

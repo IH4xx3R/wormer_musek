@@ -1,10 +1,12 @@
 <template>
-  <div class="datenschutz">
+  <div class="datenschutz  ">
     <div
       class="mx-auto h-24 w-full pt-8 text-center text-2xl tracking-widest font-bold bg-blue-800 text-white uppercase"
     >Impressum</div>
 
-    <div class="p-16 bg-gray-100">
+    <div class="md:p-16 p-4 bg-gray-200 ">
+
+      <div class="md:p-16 p-8 bg-white antialiased shadow-xl text-gray-800">
       <span class="font-bold">Angaben gemäß § 5 TMG</span>
       <br />
       <br />
@@ -39,6 +41,8 @@
       <div class="text-2xl">Hinweis für versuchte Abmahnung</div>
       <div>Bitte senden Sie keine Abmahnung ohne vorherigen Kontakt. Sollten Teile des Inhalts oder der Aufmachung dieser Website Rechte Dritter oder gesetzliche Bestimmungen verletzen, so bitten wir um eine entsprechende kostenfreie Benachrichtigung. Wir garantieren, dass die zu Recht beanstandeten Punkte schnellstmöglich entfernt bzw. geändert werden, ohne dass von Ihrer Seite die Einschaltung eines Rechtsbeistandes erforderlich wird. Ohne vorherige Kontaktaufnahme ausgelöste Kosten werden wir vollumfänglich zurückweisen und gegebenenfalls Gegenklage wegen Verletzung vorgenannter Bestimmungen einreichen. Die Kostennote einer Abmahnung ohne vorhergehenden Kontakt mit uns wird im Sinne der Schadensminderungspflicht als unbegründet zurückgewiesen.</div>
       <br />
+    </div>
+
     </div>
   </div>
 </template>
