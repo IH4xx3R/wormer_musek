@@ -73,8 +73,10 @@
           <div>1926</div>
         </div>
 
+        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/wm1926.jpg" alt=""></div>
+
         <div
-          class="w-full text-center mx-auto mb-16"
+          class="w-full text-center mx-auto mb-16 my-20"
         >Reorganisatioun vun der 'Feuerwehr-Fanfare Wormeldingen' als eegestänneg Abteilung vun de Pompjeeën ënnert der Direktioun vum Mathias Beckius.</div>
       </div>
 
@@ -97,8 +99,11 @@
           <div>1935</div>
         </div>
 
+        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1935_small.jpeg" alt=""></div>
+
+
         <div
-          class="w-full text-center mx-auto mb-16"
+          class="w-full text-center mx-auto mb-16 my-20"
         >Concert vun den 2 Museken zesummen op dem Festival Permanent vun der Bréissler Weltausstellung.</div>
       </div>
 
@@ -167,7 +172,10 @@
           <div>1964</div>
         </div>
 
-        <div class="w-full text-center mx-auto mb-16">60-järegt Stëftungsfest zu Wormer.</div>
+        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1964_small.jpeg" alt=""></div>
+
+
+        <div class="w-full text-center mx-auto mb-16 my-20">60-järegt Stëftungsfest zu Wormer.</div>
       </div>
       <div class="md:w-1/2 md:p-6">
         <div
@@ -196,8 +204,11 @@
           <div>1968</div>
         </div>
 
+                <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/fanfare_cunibert_small.jpeg" alt=""></div>
+
+
         <div
-          class="w-full text-center mx-auto mb-16"
+          class="w-full text-center mx-auto mb-16 my-20"
         >Grënnung vun der 'Fanfare St. Cunibert'. D''Entente des sociétés de Wormeldange' entsteet, wou 'Harmonie Wormeldange' Grënnungsmember ass.</div>
       </div>
       <div class="md:w-1/2 md:p-6">
@@ -229,8 +240,11 @@
           <div>1979</div>
         </div>
 
+                        <div class="-my-16 shadow-2xl"><img src="https://harmonie-wormeldange.lu/WM/images/musek_1979_small.jpeg" alt=""></div>
+
+
         <div
-          class="w-full text-center mx-auto mb-16"
+          class="w-full text-center mx-auto mb-16 my-20"
         >75-järegt Stëftungsfest zu Wormer, mat de Museken aus Wormer, Rollingergronn an Fréiseng.</div>
       </div>
       <div class="md:w-1/2 md:p-6">
