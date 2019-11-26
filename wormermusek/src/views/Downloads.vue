@@ -30,11 +30,11 @@
               class="video-js vjs-default-skin"
               controls
               preload="none"
-              poster="https://harmonie-wormeldange.lu/WM/downloads/cd.png"
+              poster="../assets/img/cd.png"
               data-setup="{}"
             >
               <source
-                src="https://harmonie-wormeldange.lu/WM/downloads/RTL_REPORTAGE.webm"
+                src="../assets/video/RTL_REPORTAGE.webm"
                 type="video/webm"
               />
             </video>
