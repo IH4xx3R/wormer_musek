@@ -99,19 +99,19 @@
         <router-link to="/" exact class="block p-2 lg:mt-0 text-blue-900">Home</router-link>
       </div>
 
-      <div class="bg-white mb-2">
+      <div @click="toggleMenu = false"  class="bg-white mb-2">
         <span class="block p-2 lg:mt-0 text-blue-900" href="#">Musek</span>
       </div>
 
-      <div class="hover:bg-blue-300 mb-2 bg-gray-300">
+      <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
         <router-link to="/orchester" class="block p-2 lg:mt-0 text-blue-900">Orchester</router-link>
       </div>
 
-      <div class="hover:bg-blue-300 mb-2 bg-gray-300">
+      <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
         <router-link to="/dirigenten" class="block p-2 lg:mt-0 text-blue-900">Dirigenten</router-link>
       </div>
 
-      <div class="hover:bg-blue-300 mb-2 bg-gray-300">
+      <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
         <router-link to="/verwaltung" class="block p-2 lg:mt-0 text-blue-900">Verwaltung</router-link>
       </div>
 

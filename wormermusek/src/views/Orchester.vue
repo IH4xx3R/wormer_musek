@@ -16,7 +16,7 @@
     </div>
 
     <div
-      class="p-16 md:pl-24 md:pr-24 pl-12 pr-12 bg-gray-100 w-screen md:flex flex-wrap justify-between"
+      class="p-16 md:pl-24 md:pr-24 pl-12 pr-12 bg-gray-100 md:flex flex-wrap justify-between"
     >
       <div class="md:w-1/2 md:p-6">
         <div
