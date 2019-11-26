@@ -2,7 +2,8 @@
   <div class="downloads">
     <div
       class="h-48 relative text-center bg-no-repeat bg-cover bg-center shadow-md"
-      style="background-image: url('https://harmonie-wormeldange.lu/WM/images/cd_cover.jpg')"
+        :style="{backgroundImage: `url(${require(`../assets/img/cd_cover.jpg`)})`}"
+
     >
       <div class="absolute bg-blue-800 opacity-75 h-48 w-full"></div>
       <h1
@@ -19,7 +20,7 @@
       <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">
         <div class="md:flex flex-wrap">
           <div class="md:w-1/3 p-8">
-            <img src="https://harmonie-wormeldange.lu/WM/images/cd_cover.jpg" alt />
+            <img src="../assets/img/cd_cover.jpg" alt />
             <p class="text-2xl">CD Wormer Musek and Friends</p>
             <p>15€</p>
             <br />

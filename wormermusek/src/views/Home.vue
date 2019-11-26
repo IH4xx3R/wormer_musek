@@ -25,7 +25,7 @@
       <div class="md:w-1/3 lg:w-1/2 md:pr-6">
         <img
           class="h-auto mb-12 md:mb-0 mx-auto"
-          src="https://harmonie-wormeldange.lu/WM/images/kreschtmaart2019.png"
+          src="../assets/img/kreschtmaart2019.png"
           alt
         />
       </div>
@@ -71,7 +71,7 @@
     <!-- MUSEK INFO -->
     <div
       class="h-64 relative text-center bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
-      style="background-image: url('https://harmonie-wormeldange.lu/WM/gallery/albums/concert_canach_30052019/previews/009-C59C9D12-6324-4721-81CA-9F8C7E558FED.JPG.medium.jpeg')"
+       :style="{backgroundImage: `url(${require(`../assets/img/concert_kanech_medium.jpeg`)})`}"
     >
       <div class="absolute h-64 bg-blue-800 h-full overflow-hidden opacity-75 w-full"></div>
       <div

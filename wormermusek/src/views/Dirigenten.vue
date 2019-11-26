@@ -173,7 +173,7 @@
           <div>
             <div
               class="rounded-full overflow-hidden bg-no-repeat bg-cover bg-center bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-              style="background-image: url('https://harmonie-wormeldange.lu/WM/images/dirigenten/wilhelm.png')"
+                :style="{backgroundImage: `url(${require(`../assets/img/dirigenten/wilhelm.png`)})`}"
             >
               <div class="absolute rounded-full bg-gray-800 opacity-50 w-64 h-64"></div>
 
