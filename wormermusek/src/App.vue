@@ -16,6 +16,12 @@ import './assets/css/main.css'
 
 export default {
   name: 'app',
+  metaInfo: {
+  // if no subcomponents specify a metaInfo.title, this title will be used
+  title: 'Wormer Musek a.s.b.l.',
+  // all titles will be injected into this template
+  titleTemplate: '%s | Wormer Musek a.s.b.l.'
+  },
   components : {
     Navigation, Footer1
   }

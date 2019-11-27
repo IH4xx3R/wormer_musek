@@ -136,3 +136,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    metaInfo: {
+        title: 'WM Live',
+    },
+}
+</script>

@@ -33,6 +33,11 @@
 <script>
 import AgendaSlot from "../components/agenda/AgendaSlot";
 export default {
+        metaInfo: {
+      title: 'Agenda',
+      // override the parent template and just use the above title only
+      //titleTemplate: null
+    },
   components: {
     AgendaSlot
   }

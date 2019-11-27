@@ -476,3 +476,11 @@
   </div>    </div>
   </div>
 </template>
+
+<script>
+export default {
+    metaInfo: {
+        title: 'Orchester',
+    },
+}
+</script>

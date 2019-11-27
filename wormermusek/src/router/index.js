@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Meta from 'vue-meta'
 
 Vue.use(VueRouter)
+Vue.use(Meta)
 
 const routes = [
   {
@@ -58,7 +60,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes, mode:'history'
 })
 
 router.afterEach(() => {

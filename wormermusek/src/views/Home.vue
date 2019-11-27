@@ -66,7 +66,7 @@
         ></agenda-slot>
 
         <div class="flex flex-row-reverse">
-        <a class=" w-64 text-center px-4 py-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-gray-100" href="#/agenda" >Weider zum Agenda</a>
+        <a class=" w-64 text-center px-4 py-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-gray-100" href="./agenda" >Weider zum Agenda</a>
         </div>
 
       </div>
@@ -96,6 +96,11 @@
 import AgendaSlot from "../components/agenda/AgendaSlot";
 
 export default {
+      metaInfo: {
+      title: 'Home',
+      // override the parent template and just use the above title only
+      //titleTemplate: null
+    },
   components: {
     AgendaSlot
   }

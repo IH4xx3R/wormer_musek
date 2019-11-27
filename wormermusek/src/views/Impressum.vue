@@ -46,3 +46,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    metaInfo: {
+        title: 'Impressum',
+    },
+}
+</script>

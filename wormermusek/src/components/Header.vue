@@ -24,7 +24,7 @@
             <div class="hover:bg-blue-800 mb-2">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="#/orchester"
+                href="./orchester"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Orchester</a>
             </div>
@@ -32,7 +32,7 @@
             <div class="hover:bg-blue-800 mb-2">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="#/dirigenten"
+                href="./dirigenten"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Dirigenten</a>
             </div>
@@ -40,7 +40,7 @@
             <div class="hover:bg-blue-800">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="#/verwaltung"
+                href="./verwaltung"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Verwaltung</a>
             </div>
@@ -49,7 +49,7 @@
             <div class="hover:bg-blue-800">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="#/downloads"
+                href="./downloads"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >WM Live</a>
             </div>
