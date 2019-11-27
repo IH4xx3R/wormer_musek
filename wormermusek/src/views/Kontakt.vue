@@ -7,7 +7,7 @@
              <div class="md:p-16 p-4 bg-gray-200 ">
       <div class="md:p-16 p-8 bg-white antialiased text-gray-800 shadow-xl">     
 
-    <div class="md:flex h-screen">
+    <div class="md:flex">
       <div class="md:w-1/2 mb-12">
         <p class="font-bold">HARMONIE - WORMELDANGE asbl</p>
         <p>94, rue Principale</p>

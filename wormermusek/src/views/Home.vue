@@ -7,7 +7,7 @@
     >
       <div class="absolute bg-blue-800 opacity-75 h-64 w-full"></div>
       <h1
-        class="w-full px-8 absolute block font-light text-2xl md:text-4xl mt-24 text-white tracking-wider"
+        class="w-full px-8 absolute block font-light text-2xl md:text-4xl md:mt-24 mt-16 text-white tracking-wider"
       >
         Wëllkomm bei der Wormer Musek!
         <span
@@ -31,7 +31,7 @@
       </div>
 
       <!-- AGENDA 4x-->
-      <div class="md:w-2/3 lg:w-1/2 md:pl-6">
+      <div class="md:w-2/3 lg:w-1/2 md:pl-6 overflow-hidden">
 
       <div v-for="agendaslot in agendaslots" :key="agendaslot.id">
         <agenda-slot
@@ -59,7 +59,7 @@
     >
       <div class="absolute h-64 bg-blue-800 h-full overflow-hidden opacity-75 w-full"></div>
       <div
-        class="absolute h-64 block w-full md:px-12 lg:px-24 px-6 pt-20 pb-24 text-md md:text-xl text-white md:tracking-wider"
+        class=" h-64 absolute block w-full md:px-12 lg:px-24 px-6 pt-12 md:pt-20 pb-24 text-md md:text-xl text-white md:tracking-wider"
       >
         <p>
           D'Harmonie Wormeldange a.s.b.l. ass 1904 gegrënnt ginn.

@@ -39,7 +39,7 @@
               />
             </video>
           </div>
-          <div class="md:w-2/3 p-8">
+          <div class="md:w-2/3 md:p-8 sm:p-2">
             <p class="font-bold">Inhalt vun der CD</p>
             <br />01 - Take 9 'Antiphonal Fanfare' (Kerry Turner)
             <br />02 - El Camino Real (Alfred Reed)
@@ -69,63 +69,63 @@
         </div>
 
         <div class="md:flex flex-wrap">
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Sound the Bells (John Williams)</p>
             <audio controls>
               <source src="../assets/audio/Sound_Bells.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Inception</p>
             <audio controls>
               <source src="../assets/audio/INCEPTION.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Star Wars - 20th Century Fox and Main Theme</p>
             <audio controls>
               <source src="../assets/audio/STAR_WARS.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Tempered Steel (Charles Rochester Young)</p>
             <audio controls>
               <source src="../assets/audio/TEMPERED_STEEL.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">The Incredibles</p>
             <audio controls>
               <source src="../assets/audio/Incredibles.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Short Ride in a fast machine (John Adams)</p>
             <audio controls>
               <source src="../assets/audio/SHORT_RIDE.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Out of Africa</p>
             <audio controls>
               <source src="../assets/audio/OUT_OF_AFRICA.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Harry Potter Suite - Harry's Wondrous World</p>
             <audio controls>
               <source src="../assets/audio/Harry_Potter_Wondrous.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
 
-          <div class="lg:w-1/3 md:1/2 p-8">
+          <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Thriller (M. Jackson)</p>
             <audio controls>
               <source src="../assets/audio/THRILLER.mp3" type="audio/mp3" />Your browser does not support the audio element.

@@ -4,7 +4,7 @@
       <div>© 2019 Wormer Musek</div>
       <div>Harmonie Wormeldange A.s.b.l</div>
       <div>94, rue Principale</div>
-      <div>L-5480 Wormeldange, Luxembourg</div>
+      <div>L-5480 Wormeldange</div>
     </div>
 
     <div>
