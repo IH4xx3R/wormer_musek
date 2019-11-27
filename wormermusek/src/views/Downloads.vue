@@ -68,7 +68,7 @@
           </div>
         </div>
 
-        <div class="md:flex flex-wrap">
+        <div class="md:flex flex-wrap overflow-hidden">
           <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Sound the Bells (John Williams)</p>
             <audio controls>
@@ -127,7 +127,7 @@
 
           <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Thriller (M. Jackson)</p>
-            <audio controls class="w-auto">
+            <audio controls>
               <source src="../assets/audio/THRILLER.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
