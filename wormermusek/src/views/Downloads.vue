@@ -19,7 +19,7 @@
     <div class="md:p-16 p-4 bg-gray-200">
       <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">
         <div class="md:flex flex-wrap">
-          <div class="md:w-1/3 p-8">
+          <div class="md:w-1/3 md:p-8 sm:p-2">
             <img src="../assets/img/cd_cover.jpg" alt />
             <p class="text-2xl">CD Wormer Musek and Friends</p>
             <p>15€</p>
@@ -127,7 +127,7 @@
 
           <div class="lg:w-1/3 md:1/2 md:p-8 sm:p-2">
             <p class="block h-16">Thriller (M. Jackson)</p>
-            <audio controls>
+            <audio controls class="w-auto">
               <source src="../assets/audio/THRILLER.mp3" type="audio/mp3" />Your browser does not support the audio element.
             </audio>
           </div>
