@@ -5,10 +5,10 @@
     >Agenda</div>
 
          <div class="md:p-16 p-4 bg-gray-200 ">
-      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">      
+      <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800 overflow-hidden">      
 
 
-<div class="md:flex flex-wrap">
+<div class="md:flex flex-wrap ">
     <div v-for="agendaslot in agendaslots" :key="agendaslot.id" class="md:w-1/2">
       <agenda-slot
         class=""
