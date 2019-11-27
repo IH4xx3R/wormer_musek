@@ -32,38 +32,17 @@
 
       <!-- AGENDA 4x-->
       <div class="md:w-2/3 lg:w-1/2 md:pl-6">
+
+      <div v-for="agendaslot in agendaslots" :key="agendaslot.id">
         <agenda-slot
-          class
-          title="Concert"
-          day="24"
-          month="November"
-          time="19:00"
-          desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+          class=""
+          :title="agendaslot.title"
+          :day="agendaslot.day"
+          :month="agendaslot.month"
+          :time="agendaslot.time"
+          :desc="agendaslot.desc"
         ></agenda-slot>
-        <agenda-slot
-          class
-          title="Concert"
-          day="8"
-          month="Januar"
-          time="19:00"
-          desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-        ></agenda-slot>
-        <agenda-slot
-          class
-          title="Concert"
-          day="24"
-          month="November"
-          time="19:00"
-          desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-        ></agenda-slot>
-        <agenda-slot
-          class
-          title="Concert"
-          day="8"
-          month="Januar"
-          time="19:00"
-          desc="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-        ></agenda-slot>
+      </div>
 
         <div class="flex flex-row-reverse">
         <a class=" w-64 text-center px-4 py-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-gray-100" href="./agenda" >Weider zum Agenda</a>
@@ -94,6 +73,8 @@
 
 <script>
 import AgendaSlot from "../components/agenda/AgendaSlot";
+import Axios from 'axios';
+
 
 export default {
       metaInfo: {
@@ -103,6 +84,17 @@ export default {
     },
   components: {
     AgendaSlot
+  },
+  data: function() {
+    return {
+      agendaslots: []
+    }
+  },
+  mounted: function(){
+    var that = this;
+      Axios.get('https://harmonie-wormeldange.lu/WM/api/agenda/api.php/').then(function(response) {
+        that.agendaslots = (response.data.slice(1, 5));
+      })  
   }
 };
 </script>

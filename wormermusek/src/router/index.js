@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Meta from 'vue-meta'
+import axios from 'axios'
+
+Vue.prototype.$http = axios
 
 Vue.use(VueRouter)
 Vue.use(Meta)
