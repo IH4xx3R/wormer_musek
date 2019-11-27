@@ -6,166 +6,9 @@
 
 
              <div class="md:p-16 p-4 bg-gray-200 ">
-      <div class="md:p-16 p-8 pt-12 bg-white antialiased text-gray-800 shadow-xl">     
-                <div class="md:flex flex-wrap justify-between">
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Jean
-              <br />Entringer
-            </div>
-          </div>
+      <div class="md:p-16 p-8 pt-12 bg-white antialiased text-gray-800 shadow-xl"> 
 
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1904 - 1916</div>
-        </div>
 
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Nic
-              <br />Entringer
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1917 - 1952</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Mathias
-              <br />Beckius
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1927 - 1929</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Eugene
-              <br />Weber
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1952 - 1963</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Jean
-              <br />Genson
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1963 - 1984</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Gilbert
-              <br />Holzem
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1985</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Jos
-              <br />Braun
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1986 - 1997</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Edgar
-              <br />Becker
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >1997 - 2001</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Steve
-              <br />Humbert
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >2001 - 2006</div>
-        </div>
-
-        <div class="lg:w-1/3 md:w-1/2 md:p-6">
-          <div
-            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
-          >
-            <div class="-mt-2">
-              Steve
-              <br />Boehm
-            </div>
-          </div>
-
-          <div
-            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
-          >2006 - 2016</div>
-        </div>
-
-        <!--
-
-    class="h-64 relative text-center bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
-      style="background-image: url('https://harmonie-wormeldange.lu/WM/gallery/albums/concert_canach_30052019/previews/009-C59C9D12-6324-4721-81CA-9F8C7E558FED.JPG.medium.jpeg')"
-   
-
-        -->
-      </div>
 
       <div class="md:flex flex-wrap justify-between pb-12">
           
@@ -175,7 +18,7 @@
               class="rounded-full overflow-hidden bg-no-repeat bg-cover bg-center bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
                 :style="{backgroundImage: `url(${require(`../assets/img/dirigenten/wilhelm.png`)})`}"
             >
-              <div class="absolute rounded-full bg-gray-800 opacity-50 w-64 h-64"></div>
+              <div class="absolute rounded-full bg-gray-800 opacity-50 w-64 h-64 "></div>
 
               <div class="absolute -mt-2">
                 Patrick
@@ -199,6 +42,168 @@
             Säi Wierk „Beautiful Shine“ war 2016 Imposé fir den UGDA's Concours zu Biissen.
           </div>
       </div>
+
+
+                <div class="md:flex flex-wrap justify-between">
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-9">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Jean
+              <br />Entringer
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1904 - 1916</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-8">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Nic
+              <br />Entringer
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1917 - 1952</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-7">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Mathias
+              <br />Beckius
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1927 - 1929</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-6">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Eugene
+              <br />Weber
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1952 - 1963</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-5">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Jean
+              <br />Genson
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1963 - 1984</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-4">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Gilbert
+              <br />Holzem
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1985</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-3">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Jos
+              <br />Braun
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1986 - 1997</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-2">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Edgar
+              <br />Becker
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >1997 - 2001</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-1">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Steve
+              <br />Humbert
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >2001 - 2006</div>
+        </div>
+
+        <div class="lg:w-1/3 md:w-1/2 md:p-6 order-0">
+          <div
+            class="rounded-full bg-blue-800 w-64 h-64 flex justify-center items-center text-5xl text-white mx-auto leading-none"
+          >
+            <div class="-mt-2">
+              Steve
+              <br />Boehm
+            </div>
+          </div>
+
+          <div
+            class="w-64 -mt-12 bg-gray-800 text-gray-300 text-center mx-auto mb-16 px-8 py-4 tracking-widest"
+          >2006 - 2016</div>
+        </div>
+
+        <!--
+
+    class="h-64 relative text-center bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
+      style="background-image: url('https://harmonie-wormeldange.lu/WM/gallery/albums/concert_canach_30052019/previews/009-C59C9D12-6324-4721-81CA-9F8C7E558FED.JPG.medium.jpeg')"
+   
+
+        -->
+      </div>
+
     </div>
         </div>
   </div>
