@@ -76,7 +76,7 @@
           <div>1926</div>
         </div>
 
-        <div class="-my-16 shadow-2xl"><img src="../assets/img/chronik/wm1926.jpg" alt=""></div>
+        <div class="-my-16 shadow-2xl"><img style="width: 100%;height: auto;" src="../assets/img/chronik/wm1926.jpg" alt=""></div>
 
         <div
           class="w-full text-center mx-auto mb-16 my-20"
