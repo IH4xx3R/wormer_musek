@@ -2,12 +2,13 @@
   <div>
     <!-- INTRO -->
     <div
-      class="h-64 relative text-center bg-no-repeat bg-cover bg-center shadow-md "
-       :style="{backgroundImage: `url(${require(`../assets/img/IMG_5743.jpg`)})`}"
+      class="h-64 relative text-center bg-no-repeat bg-cover bg-center shadow-md font-light text-2xl md:text-4xl text-white tracking-wider p-6"
+       :style="{backgroundImage: `url(${require(`../assets/img/IMG_5743.jpg`)})`}" style="  display: flex;
+  align-items: center;
+  justify-content: center;"
     >
-      <div class="absolute bg-blue-800 opacity-75 h-64 w-full"></div>
       <h1
-        class="w-full px-8 absolute block font-light text-2xl md:text-4xl md:mt-24 mt-16 text-white tracking-wider"
+        class=""
       >
         Wëllkomm bei der Wormer Musek!
         <span
@@ -31,7 +32,7 @@
       </div>
 
       <!-- AGENDA 4x-->
-      <div class="md:w-2/3 lg:w-1/2 md:pl-6 overflow-hidden">
+      <div class="md:w-2/3 lg:w-1/2 md:pl-6">
 
       <div v-for="agendaslot in agendaslots" :key="agendaslot.id">
         <agenda-slot
@@ -54,19 +55,16 @@
 
     <!-- MUSEK INFO -->
     <div
-      class="h-64 relative text-center bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
-       :style="{backgroundImage: `url(${require(`../assets/img/concert_kanech_medium.jpeg`)})`}"
+      class="h-64 p-6 md:p-24 text-center text-md md:text-xl tracking-wide flex bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
+       :style="{backgroundImage: `url(${require(`../assets/img/concert_kanech_medium.jpeg`)})`}" style="  display: flex;
+  align-items: center;
+  justify-content: center;"
     >
-      <div class="absolute h-64 bg-blue-800 h-full overflow-hidden opacity-75 w-full"></div>
-      <div
-        class=" h-64 absolute block w-full md:px-12 lg:px-24 px-6 pt-12 md:pt-20 pb-24 text-md md:text-xl text-white md:tracking-wider"
-      >
-        <p>
+        <div class="">
           D'Harmonie Wormeldange a.s.b.l. ass 1904 gegrënnt ginn.
           <br />Zur Zäit hu mir 35 aktiv Musikantinnen a Musikanten.
           <br />Mir prouwen all Freideg vun 19.30 bis 21.30 zu Wormer an eisem Prouwesall am bloen Haus vis-à-vis vun der Gemeen.
-        </p>
-      </div>
+        </div>
     </div>
   </div>
 </template>
