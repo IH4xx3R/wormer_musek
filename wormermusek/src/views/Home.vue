@@ -54,7 +54,7 @@
     </div>
 
     <!-- ALBUM -->
-      <div class="md:p-16 p-8 pt-10 bg-gray-400 ">
+      <div class="md:p-16 p-2 pt-10 bg-gray-400 ">
 
          <div class="md:flex flex-wrap">
           <div v-for="album in albums" :key="album.key" class="lg:w-1/3 md:w-1/2 p-2 pb-6 md:pb-2">
@@ -67,7 +67,7 @@
           </div>
          </div>
 
-        <div class="flex items-center md:pt-10 ">
+        <div class="flex items-center md:pt-10 pb-6 md:pb-0">
 
           <a class="w-64 mx-auto text-center px-4 py-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-gray-100" href="./album" >Weider zum Album</a>
                 </div>
