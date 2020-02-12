@@ -13,7 +13,6 @@ import Footer1 from './components/Footer.vue'
 
 import './assets/css/main.css'
 
-
 export default {
   name: 'app',
   metaInfo: {

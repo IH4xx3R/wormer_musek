@@ -17,7 +17,7 @@
       </h1>
     </div>
 
-        <div class="md:pl-16 md:pb-16 md:pr-16 pl-4 pb-4 pr-4 bg-gray-200 ">
+        <div class="md:pl-16 md:pb-16 md:pr-16 pl-4 pb-8 pr-4 bg-gray-200 ">
       <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800">   
 
     <!-- PLAKAT + AGENDA -->
@@ -53,6 +53,29 @@
     </div>      </div>
     </div>
 
+    <!-- ALBUM -->
+      <div class="md:p-16 p-8 pt-10 bg-gray-400 ">
+
+         <div class="md:flex flex-wrap">
+          <div v-for="album in albums" :key="album.key" class="lg:w-1/3 md:w-1/2 p-2 pb-6 md:pb-2">
+              <div class="relative bg-gray-900 mx-2 h-64 shadow-xl overflow-hidden">
+                <router-link :to="{name : 'insideAlbum', params : {id : album.key}}"> 
+                      <div class="h-full w-full bg-cover bg-center overflow-hidden hover:opacity-25"  :style="{backgroundImage: `url(${album.thumbnail_path})`}"  title="Izeg 2012"></div>
+                      <div class="inset-x-0 bottom-0 absolute px-4 py-2 bg-gray-800 text-2xl text-gray-100">{{album.name}}</div>
+                  </router-link>
+              </div>
+          </div>
+         </div>
+
+        <div class="flex items-center md:pt-10 ">
+
+          <a class="w-64 mx-auto text-center px-4 py-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-gray-100" href="./album" >Weider zum Album</a>
+                </div>
+
+
+      </div>
+
+
     <!-- MUSEK INFO -->
     <div
       class="h-64 p-6 md:p-24 text-center text-md md:text-xl tracking-wide flex bg-blue-800 text-white bg-no-repeat bg-cover bg-center"
@@ -85,13 +108,18 @@ export default {
   },
   data: function() {
     return {
-      agendaslots: []
+      agendaslots: [],
+      albums: []
     }
   },
   mounted: function(){
     var that = this;
       Axios.get('https://harmonie-wormeldange.lu/WM/api/agenda/api.php/').then(function(response) {
-        that.agendaslots = (response.data.slice(1, 5));
+        that.agendaslots = (response.data.slice(0, 4));
+      })  
+      
+      Axios.get('img/albums/data.json').then(function(response) {
+        that.albums =  Object.values(response.data).slice(0, 3);
       })  
   }
 };

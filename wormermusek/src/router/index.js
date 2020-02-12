@@ -59,7 +59,17 @@ const routes = [
     path: '/downloads',
     name: 'downloads',
     component: () => import(/* webpackChunkName: "verwaltung" */ '../views/Downloads.vue')
+  },
+  {
+    path: '/album',
+    name: 'album',
+    component: () => import(/* webpackChunkName: "verwaltung" */ '../views/Album.vue')
+  },{
+    path: '/album/:id',
+    name: 'insideAlbum',
+    component: () => import(/* webpackChunkName: "verwaltung" */ '../views/InsideAlbum.vue')
   }
+
 ]
 
 const router = new VueRouter({

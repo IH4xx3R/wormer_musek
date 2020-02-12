@@ -24,7 +24,7 @@
             <div class="hover:bg-blue-800 mb-2">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="./orchester"
+                href="/orchester"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Orchester</a>
             </div>
@@ -32,7 +32,7 @@
             <div class="hover:bg-blue-800 mb-2">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="./dirigenten"
+                href="/dirigenten"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Dirigenten</a>
             </div>
@@ -40,7 +40,7 @@
             <div class="hover:bg-blue-800">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="./verwaltung"
+                href="/verwaltung"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >Verwaltung</a>
             </div>
@@ -49,7 +49,7 @@
             <div class="hover:bg-blue-800">
               <a
                 v-on:click.native="isDropdownOpen=false"
-                href="./downloads"
+                href="/downloads"
                 class="block p-2 pl-4 lg:mt-0 text-blue-900 hover:text-blue-100"
               >WM Live</a>
             </div>
@@ -72,6 +72,13 @@
           to="/agenda"
           class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
         >Agenda</router-link>
+
+        <router-link
+          v-on:click.native="isDropdownOpen=false"
+          to="/album"
+          class="border-0 px-4 py-2 border-gray-300 mt-4 lg:mt-0 text-gray-700 hover:text-blue-800 lg:mx-2"
+        >Album</router-link>
+
         <router-link
           v-on:click.native="isDropdownOpen=false"
           to="/sponsoren"
@@ -109,7 +116,7 @@
       </div>
 
       <div @click="toggleMenu = false"  class="bg-white mb-2">
-        <span class="block p-2 lg:mt-0 text-blue-900" href="#">Musek</span>
+        <span class="block p-2 lg:mt-0 text-gray-500" href="#">Musek</span>
       </div>
 
       <div @click="toggleMenu = false"  class="hover:bg-blue-300 mb-2 bg-gray-300">
@@ -130,6 +137,10 @@
 
       <div @click="toggleMenu = false" class="hover:bg-blue-300 mb-2">
         <router-link to="/agenda" class="block p-2 lg:mt-0 text-blue-900">Agenda</router-link>
+      </div>
+
+      <div @click="toggleMenu = false" class="hover:bg-blue-300 mb-2">
+        <router-link to="/album" class="block p-2 lg:mt-0 text-blue-900">Album</router-link>
       </div>
 
       <div @click="toggleMenu = false" class="hover:bg-blue-300 mb-2">

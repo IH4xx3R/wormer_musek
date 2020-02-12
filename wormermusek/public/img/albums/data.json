@@ -1,0 +1,30 @@
+{
+    "gala2019": {
+        "name": "Gala 2019",
+        "key" : "gala2019",
+        "pictures_count": 40,
+        "pictures_path": "img/albums/izeg2012",
+        "thumbnail_path": "img/albums/izeg2012/thumbs/35.jpg"
+    },
+    "gala2018": {
+        "name": "Gala 2018",
+        "key" : "gala2018",
+        "pictures_count": 40,
+        "pictures_path": "img/albums/izeg2012",
+        "thumbnail_path": "img/albums/izeg2012/thumbs/25.jpg"
+  },
+  "gala2017": {
+    "name": "Gala 2017",
+    "key" : "gala2017",
+    "pictures_count": 40,
+    "pictures_path": "img/albums/izeg2012",
+    "thumbnail_path": "img/albums/izeg2012/thumbs/15.jpg"
+},
+"gala2015": {
+    "name": "Gala 2016",
+    "key" : "gala2016",
+    "pictures_count": 40,
+    "pictures_path": "img/albums/izeg2012",
+    "thumbnail_path": "img/albums/izeg2012/thumbs/23.jpg"
+}
+}
