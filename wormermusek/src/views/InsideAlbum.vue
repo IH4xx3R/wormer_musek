@@ -9,7 +9,7 @@
          <div class="md:p-16 p-4 bg-gray-200 ">
       <div class="md:p-16 p-8 bg-white shadow-xl antialiased text-gray-800"> 
 
-        <span class="md:hidden">
+        <span class="block md:hidden">
               <div  class="boxS">
 
                 <CoolLightBox 
@@ -30,7 +30,7 @@
         </span>
 
 
-        <span class="lg:hidden">
+        <span class="md:block hidden lg:hidden">
               <div  class="boxM">
 
                 <CoolLightBox 
