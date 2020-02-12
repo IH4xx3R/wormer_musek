@@ -80,4 +80,10 @@ router.afterEach(() => {
   window.scrollTo(0, 0);
 });
 
+router.onError(error => {
+  if (/loading chunk \d* failed./i.test(error.message)) {
+    window.location.reload()
+  }
+})
+
 export default router
