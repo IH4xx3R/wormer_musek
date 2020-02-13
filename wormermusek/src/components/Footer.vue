@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between bg-gray-900 text-gray-600 px-6 md:px-24 py-12">
     <div class="text-sm md:text-md">
-      <div>© 2019 Wormer Musek</div>
+      <div>© 2020 Wormer Musek</div>
       <div>Harmonie Wormeldange A.s.b.l</div>
       <div>94, rue Principale</div>
       <div>L-5480 Wormeldange</div>
