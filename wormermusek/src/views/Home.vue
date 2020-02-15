@@ -26,7 +26,7 @@
       <div class="md:w-1/3 lg:w-1/2 md:pr-6">
         <img
           class="h-auto mb-12 md:mb-0 mx-auto"
-          src="../assets/img/kreschtmaart2019.png"
+          src="../assets/img/gala2020.jpg"
           alt
         />
       </div>
@@ -100,8 +100,6 @@ import Axios from 'axios';
 export default {
       metaInfo: {
       title: 'Home',
-      // override the parent template and just use the above title only
-      //titleTemplate: null
     },
   components: {
     AgendaSlot
